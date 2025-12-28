@@ -11,7 +11,7 @@
                 </div>
 
                 <p class="overtitle">Меня зовут Ульяна Фомина</p>
-                <h1 class="h1">Я&nbsp;- <span class="highlight">Frontend</span> разработчик сайтов из&nbsp;Челябинска
+                <h1 class="h1">Я&nbsp;— <span class="highlight">Frontend-разработчик</span> сайтов из&nbsp;Челябинска
                 </h1>
 
                 <div class="btns">
