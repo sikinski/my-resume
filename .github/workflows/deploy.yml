@@ -33,6 +33,8 @@ jobs:
         run: pnpm install
 
       - name: Generate static site
+        env:
+          NUXT_PUBLIC_BASE_URL: /my-resume/
         run: pnpm generate
 
       - name: Setup Pages
