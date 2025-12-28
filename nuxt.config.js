@@ -5,6 +5,7 @@ export default defineNuxtConfig({
   css: ['@/assets/styles/index.sass'],
 
   app: {
+    baseURL: process.env.NUXT_PUBLIC_BASE_URL || '/',
     head: {
       htmlAttrs: {
         lang: 'ru'
@@ -13,6 +14,8 @@ export default defineNuxtConfig({
       viewport: 'width=device-width, initial-scale=1',
     }
   },
+
+  ssr: false,
 
   runtimeConfig: {
     public: {
