@@ -290,6 +290,7 @@ const formData = ref({
     email: '',
     agreed: false
 })
+console.log('test');
 
 const errors = ref({
     name: '',
