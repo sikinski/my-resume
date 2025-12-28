@@ -1,0 +1,82 @@
+@use './adaptive' as *
+
+body, html
+    overflow-x: hidden
+    scroll-behavior: smooth
+    overflow-y: auto
+
+#app
+    margin: 0 auto
+    min-height: 100vh
+    position: relative
+    overflow-x: hidden
+
+.content
+    max-width: 1440px
+    padding: 0 12px
+    margin: 0 auto
+        
+.center
+    display: flex
+    justify-content: center
+    align-items: center
+
+section
+    padding: 40px 0
+    
+.empty
+    display: flex
+    justify-content: center
+    align-items: center
+    min-height: 25vh
+
+.transition
+    transition: .25s cubic-bezier(.17,.67,.83,.67)
+
+.pt-full
+    padding-top: 80px
+.pb-full
+    padding-bottom: 80px
+
+.swiper-100-w
+    width: calc(100% + 24px)
+    margin-left: -12px
+.mt
+    margin-top: 20px
+
+button
+    transition: .3s ease
+
+//
+
+.overtitle
+    position: relative
+    font-size: 1rem
+    font-weight: 600
+    z-index: 1
+    &::before
+        content: ''
+        position: absolute
+        z-index: -1
+        top: 0
+        transform: translate(-30%, -10%) 
+        width: 30px
+        height: 30px
+        background-image: url(@/assets/images/icons/circle.svg)
+        background-size: contain
+        background-position: center
+    &-center
+        
+.h2
+    margin-top: 10px
+    font-size: 28px
+    line-height: 100%
+    font-weight: 500
+
+.title-line
+    display: block
+    width: 40px
+    height: 2px
+    background-color: var(--main-color)
+    position: relative
+    margin-top: 20px
