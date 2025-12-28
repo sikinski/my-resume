@@ -15,8 +15,8 @@
                 </h1>
 
                 <div class="btns">
-                    <button class="btn btn-highlight">Портфолио</button>
-                    <button class="btn">Написать</button>
+                    <a class="btn btn-highlight" href="#portfolio">Портфолио</a>
+                    <a class="btn" href="#form">Написать</a>
                 </div>
 
                 <img src="@/assets/images/about_image.webp" alt="" class="image">
@@ -105,7 +105,7 @@
             </div>
         </section>
 
-        <section class="portfolio-section">
+        <section class="portfolio-section" id="portfolio">
             <div class="content">
                 <p class="overtitle">Работы</p>
                 <h2 class="h2">Мое портфолио</h2>
@@ -199,7 +199,7 @@
             </div>
         </section>
 
-        <section class="form-section pb-full">
+        <section class="form-section pb-full" id="form">
             <div class="content">
                 <p class="overtitle">Заинтересованы?</p>
                 <h2 class="h2">Оставьте заявку</h2>
