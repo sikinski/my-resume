@@ -28,8 +28,9 @@
                 <p class="overtitle">Что я умею</p>
                 <h2 class="h2">Мои навыки и компетенции</h2>
 
-                <p class="text">Привет! Мой опыт работы 3.5 года, из них коммерческого по профессии - 1.2 года.
-                    Ознакомься с тем, что я умею:</p>
+                <p class="text">Привет! Мой опыт работы 3.5 года, из&nbsp;них коммерческого по&nbsp;профессии&nbsp;— 1.2
+                    года.
+                    Ознакомься с&nbsp;тем, что я&nbsp;умею:</p>
 
                 <span class="title-line"></span>
 
@@ -40,7 +41,7 @@
                             <img src="@/assets/images/icons/circle.svg" alt="" class="circle">
                         </div>
                         <h3 class="title">Разработка фронтэнда</h3>
-                        <p class="desc">Разработка современных веб-приложений на Vue 3 / Nuxt 3. Использую SSR,
+                        <p class="desc">Разработка современных веб-приложений на&nbsp;Vue 3 / Nuxt 3. Использую SSR,
                             серверные компоненты, composables, stores, nuxt-modules, pnpm, git, Cursor AI</p>
                     </div>
                     <div class="item">
@@ -49,9 +50,10 @@
                             <img src="@/assets/images/icons/circle.svg" alt="" class="circle">
                         </div>
                         <h3 class="title">Верстка сайтов</h3>
-                        <p class="desc">Mobile-first верстка, SASS, адаптивная верстка, кроссбраузерность. Верстка из
-                            макетов из
-                            Figma и "на глаз". Умею в Pixel Perfect</p>
+                        <p class="desc">Mobile-first верстка, SASS, адаптивная верстка, кроссбраузерность. Верстка
+                            из&nbsp;
+                            макетов из&nbsp;
+                            Figma и&nbsp;"на&nbsp;глаз". Умею в&nbsp;Pixel Perfect</p>
                     </div>
                     <div class="item">
                         <div class="icon-wrapper">
@@ -59,8 +61,10 @@
                             <img src="@/assets/images/icons/circle.svg" alt="" class="circle">
                         </div>
                         <h3 class="title">Немного Devops</h3>
-                        <p class="desc">Умею настраивать Nginx на работу фронта, бэка. Умею работать с Docker, сама
-                            создаю Dockerfile, docker-compose.yml для фронта. Знаю частые причины падений фронта в
+                        <p class="desc">Умею настраивать Nginx на&nbsp;работу фронта, бэка. Умею работать с&nbsp;Docker,
+                            сама
+                            создаю Dockerfile, docker-compose.yml для&nbsp;фронта. Знаю частые причины падений фронта
+                            в&nbsp;
                             докере</p>
                     </div>
                     <div class="item">
@@ -69,9 +73,10 @@
                             <img src="@/assets/images/icons/circle.svg" alt="" class="circle">
                         </div>
                         <h3 class="title">Чуть-чуть бэкэнда</h3>
-                        <p class="desc">Умею создавать простые REST API сервисы для небольших задач (отправка e-mail,
-                            авторизация с токенами,
-                            простенькие CRUD). Стек - Node.js + Prisma + Fastify</p>
+                        <p class="desc">Умею создавать простые REST API сервисы для&nbsp;небольших задач (отправка
+                            e-mail,
+                            авторизация с&nbsp;токенами,
+                            простенькие CRUD). Стек&nbsp;— Node.js + Prisma + Fastify</p>
                     </div>
                     <div class="item">
                         <div class="icon-wrapper">
@@ -79,8 +84,10 @@
                             <img src="@/assets/images/icons/circle.svg" alt="" class="circle">
                         </div>
                         <h3 class="title">Оптимизация. SEO и не только</h3>
-                        <p class="desc">Всегда забочусь об оптимизации. Важна быстрая скорость открытия сайта и хорошее
-                            ранжирование сайта в поиске. Сжимаю картинки, смотрю на вес бандла, проверяю сайты на Google
+                        <p class="desc">Всегда забочусь об&nbsp;оптимизации. Важна быстрая скорость открытия сайта
+                            и&nbsp;хорошее
+                            ранжирование сайта в&nbsp;поиске. Сжимаю картинки, смотрю на&nbsp;вес бандла, проверяю сайты
+                            на&nbsp;Google
                             PageSpeed + Lighthouse</p>
                     </div>
                     <div class="item">
@@ -89,8 +96,9 @@
                             <img src="@/assets/images/icons/circle.svg" alt="" class="circle">
                         </div>
                         <h3 class="title">Помощь бизнесу</h3>
-                        <p class="desc">Использую все необходимые современные средства для создания хорошего сайта
-                            быстро. Не трачу время на изобретение велосипеда, использую готовые инструменты. В последнее
+                        <p class="desc">Использую все необходимые современные средства для&nbsp;создания хорошего сайта
+                            быстро. Не&nbsp;трачу время на&nbsp;изобретение велосипеда, использую готовые инструменты.
+                            В&nbsp;последнее
                             время использую AI.</p>
                     </div>
                 </div>
@@ -155,11 +163,13 @@
                         <div class="number-wrapper">
                             <span class="number">1</span>
                         </div>
-                        <h3 class="title">Эффективность и скорость разработки</h3>
+                        <h3 class="title">Эффективность и&nbsp;скорость разработки</h3>
                         <p class="desc">
-                            Работаю быстро, но качественно. Полностью готовый лендинг с&nbsp;отправкой заявки делаю за 8
+                            Работаю быстро, но&nbsp;качественно. Полностью готовый лендинг с&nbsp;отправкой заявки делаю
+                            за&nbsp;8&nbsp;
                             часов. Недавно с&nbsp;Cursor
-                            AI сделала сайт из 5 страниц с&nbsp;нуля за 6 часов. Использую современные инструменты и
+                            AI сделала сайт из&nbsp;5&nbsp;страниц с&nbsp;нуля за&nbsp;6&nbsp;часов. Использую
+                            современные инструменты и&nbsp;
                             проверенные решения, чтобы ускорить разработку.
                         </p>
                     </div>
@@ -168,8 +178,10 @@
                             <span class="number">2</span>
                         </div>
                         <h3 class="title">Профессиональная ответственность</h3>
-                        <p class="desc">Всегда соблюдаю дедлайны, просыпаюсь вовремя. Использую канбан для отслеживания
-                            задач. Не делегирую свои задачи. Записываю все важное и умею вести коммуникацию с
+                        <p class="desc">Всегда соблюдаю дедлайны, просыпаюсь вовремя. Использую канбан
+                            для&nbsp;отслеживания
+                            задач. Не&nbsp;делегирую свои задачи. Записываю все важное и&nbsp;умею вести коммуникацию
+                            с&nbsp;
                             заказчиками.</p>
                     </div>
                     <div class="item">
@@ -177,9 +189,11 @@
                             <span class="number">3</span>
                         </div>
                         <h3 class="title">Настойчивость и надежность</h3>
-                        <p class="desc">Всегда довожу проект до конца, какой бы сложный он ни был. Если нужно доделать
-                            секцию или форму — остаюсь до поздна. Если фронт не собирается, а&nbsp;дедлайн близко — не
-                            брошу, пока не решу проблему. Это важно для меня.</p>
+                        <p class="desc">Всегда довожу проект до&nbsp;конца, какой&nbsp;бы сложный он&nbsp;ни&nbsp;был.
+                            Если нужно доделать
+                            секцию или&nbsp;форму&nbsp;— остаюсь до&nbsp;поздна. Если фронт не&nbsp;собирается,
+                            а&nbsp;дедлайн близко&nbsp;— не&nbsp;
+                            брошу, пока не&nbsp;решу проблему. Это важно для&nbsp;меня.</p>
                     </div>
                 </div>
             </div>
@@ -210,9 +224,9 @@
                         <label class="checkbox-label">
                             <input type="checkbox" v-model="formData.agreed" @change="clearError('agreed')" />
                             <span class="checkbox-custom"></span>
-                            <span class="checkbox-text">Я согласен(а) на обработку персональных данных (<NuxtLink
+                            <span class="checkbox-text">Я согласен(а) на обработку персональных данных (&nbsp;<NuxtLink
                                     to="/privacy" target="_blank" class="privacy-link">политика конфиденциальности
-                                </NuxtLink>)</span>
+                                </NuxtLink>&nbsp;)</span>
                         </label>
                         <span v-if="errors.agreed" class="error">{{ errors.agreed }}</span>
                     </div>
@@ -928,12 +942,13 @@ const handleSubmit = async () => {
                 margin-top: 20px
             .items
                 display: grid
-                grid-template-columns: 1fr 1fr
+                grid-template-columns: 1fr 1fr 1fr
                 .item
                     grid-gap: 10px 20px
                     grid-template-columns: 60px 1fr
                     grid-template-rows: 60px 1fr
                     padding: 20px
+                    border-left: 1px solid #a0a0a0
                     .icon-wrapper
                         grid-row: 1/3
                         justify-content: center
@@ -950,9 +965,14 @@ const handleSubmit = async () => {
                         font-size: 20px
                     .desc
                         font-size: 16px
-                    &:nth-child(5)
+                    &:nth-child(4), &:nth-child(5)
                         border-bottom: none
-                    &:nth-child(even)
+                        border-left: none
+                    &:first-child, &:nth-child(3), &:nth-child(6), &:nth-child(5)
+                        border-right: none
+                    &:first-child
+                        border-left: none
+                    &:nth-child(5)
                         border-left: 1px solid #a0a0a0
         .form-section
             .h2
