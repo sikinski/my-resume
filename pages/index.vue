@@ -3,11 +3,15 @@
         <section class="main-section">
             <div class="content">
                 <div class="socials">
-                    <a href="/" class="link" target="_blank"><span class="icon icon-tg"></span></a>
-                    <a href="/" class="link" target="_blank"><span class="icon icon-whatsapp"></span></a>
-                    <a href="/" class="link" target="_blank"><span class="icon icon-email"></span></a>
-                    <a href="/" class="link" target="_blank"><span class="icon icon-site"></span></a>
-                    <a href="/" class="link" target="_blank"><span class="icon icon-github"></span></a>
+                    <a href="https://t.me/sikinski" class="link" target="_blank"><span class="icon icon-tg"></span></a>
+                    <a href="https://wa.me/79221594805" class="link" target="_blank"><span
+                            class="icon icon-whatsapp"></span></a>
+                    <a href="mailto:ulyana.sikinski@gmail.com" class="link" target="_blank"><span
+                            class="icon icon-email"></span></a>
+                    <a href="https://visualsenselab.ru" class="link" target="_blank"><span
+                            class="icon icon-site"></span></a>
+                    <a href="https://github.com/sikinski" class="link" target="_blank"><span
+                            class="icon icon-github"></span></a>
                 </div>
 
                 <p class="overtitle">Меня зовут Ульяна Фомина</p>
