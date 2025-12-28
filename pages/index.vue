@@ -11,7 +11,7 @@
                 </div>
 
                 <p class="overtitle">Меня зовут Ульяна Фомина</p>
-                <h1 class="h1">Я&nbsp;- <span class="highlight">frontend</span> разработчик сайтов из&nbsp;Челябинска
+                <h1 class="h1">Я&nbsp;- <span class="highlight">Frontend</span> разработчик сайтов из&nbsp;Челябинска
                 </h1>
 
                 <div class="btns">
@@ -104,38 +104,39 @@
                 <span class="title-line"></span>
 
                 <div class="items mt">
-                    <a href="/" target="_blank" class="item">
-                        <span class="prompt">Корпоративный сайт</span>
-                        <img src="@/assets/images/portfolio/vsl.png" alt="" class="image">
-                    </a>
-                    <a href="/" target="_blank" class="item">
-                        <span class="prompt">Турагенство</span>
-                        <img src="@/assets/images/portfolio/tourvibe.png" alt="" class="image">
-                    </a>
-                    <a href="/" target="_blank" class="item">
-                        <span class="prompt">Салон красоты</span>
-                        <img src="@/assets/images/portfolio/hclub.png" alt="" class="image">
-                    </a>
-                    <a href="/" target="_blank" class="item">
-                        <span class="prompt">Медицинская клиника</span>
-                        <img src="@/assets/images/portfolio/alekhin.png" alt="" class="image">
-                    </a>
-                    <a href="/" target="_blank" class="item">
-                        <span class="prompt">Турагенство</span>
-                        <img src="@/assets/images/portfolio/atour.png" alt="" class="image">
-                    </a>
-                    <a href="/" target="_blank" class="item">
-                        <span class="prompt">Интернет-магазин</span>
-                        <img src="@/assets/images/portfolio/armada.png" alt="" class="image">
-                    </a>
-                    <a href="/" target="_blank" class="item">
-                        <span class="prompt">Карьерный портал</span>
-                        <img src="@/assets/images/portfolio/konar-vacancies.png" alt="" class="image">
-                    </a>
-                    <a href="/" target="_blank" class="item">
+                    <a href="http://союз-дома.рф" target="_blank" class="item">
                         <span class="prompt">Строительная компания</span>
                         <img src="@/assets/images/portfolio/souz.png" alt="" class="image">
                     </a>
+                    <a href="https://visualsenselab.ru" target="_blank" class="item">
+                        <span class="prompt">Корпоративный сайт</span>
+                        <img src="@/assets/images/portfolio/vsl.png" alt="" class="image">
+                    </a>
+                    <a href="https://tour-vibe.ru" target="_blank" class="item">
+                        <span class="prompt">Турагенство</span>
+                        <img src="@/assets/images/portfolio/tourvibe.png" alt="" class="image">
+                    </a>
+                    <a href="https://visualsenselab.ru/cases/h-club-beauty-salon" target="_blank" class="item">
+                        <span class="prompt">Салон красоты</span>
+                        <img src="@/assets/images/portfolio/hclub.png" alt="" class="image">
+                    </a>
+                    <a href="https://visualsenselab.ru/cases/alex-clinic" target="_blank" class="item">
+                        <span class="prompt">Медицинская клиника</span>
+                        <img src="@/assets/images/portfolio/alekhin.png" alt="" class="image">
+                    </a>
+                    <a href="https://visualsenselab.ru/cases/a-tour" target="_blank" class="item">
+                        <span class="prompt">Турагенство</span>
+                        <img src="@/assets/images/portfolio/atour.png" alt="" class="image">
+                    </a>
+                    <a href="https://visualsenselab.ru/cases/armada-marketplace" target="_blank" class="item">
+                        <span class="prompt">Интернет-магазин</span>
+                        <img src="@/assets/images/portfolio/armada.png" alt="" class="image">
+                    </a>
+                    <a href="https://visualsenselab.ru/cases/konar-career-portal" target="_blank" class="item">
+                        <span class="prompt">Карьерный портал</span>
+                        <img src="@/assets/images/portfolio/konar-vacancies.png" alt="" class="image">
+                    </a>
+
 
                 </div>
             </div>
@@ -146,22 +147,73 @@
                 <p class="overtitle">Преимущества</p>
                 <h2 class="h2">Почему я?</h2>
 
-                <div class="items">
-                    <!-- Здесь нужно написать -
-                     1. Скорость. Я работаю быстро. Лендинг по макету с отправкой заявки, seo-настройкой и пр. занимает 8 часов. Недавно с Cursor AI сделала сайт из 5 страниц с полного нуля без дизайна за 6 часов. (союз-дома.рф)
-                     2. Ответственность. Просыпаюсь вовремя, буду записывать все важное. Использую канбан. Не делегирую свои задачи.
-                     3. Упрямость. Это самое главное. Если осталось сделать одну секцию на сайте или добить форму - я останусь сверхурочно. Если фронт не собирается, а время уже поджимает, я закончу это дело до конца. -->
+                <span class="title-line"></span>
+
+                <div class="items mt">
+                    <div class="item">
+                        <div class="number-wrapper">
+                            <span class="number">1</span>
+                        </div>
+                        <h3 class="title">Эффективность и скорость разработки</h3>
+                        <p class="desc">
+                            Работаю быстро, но качественно. Лендинг с формами и SEO делаю за 8 часов. Недавно с Cursor
+                            AI сделала сайт из 5 страниц с нуля за 6 часов. Использую современные инструменты и
+                            проверенные решения, чтобы ускорить разработку.
+                        </p>
+                    </div>
+                    <div class="item">
+                        <div class="number-wrapper">
+                            <span class="number">2</span>
+                        </div>
+                        <h3 class="title">Профессиональная ответственность</h3>
+                        <p class="desc">Всегда соблюдаю дедлайны, просыпаюсь вовремя. Использую канбан для отслеживания
+                            задач. Все делаю сама, не делегирую, чтобы контролировать качество. Записываю все важное и
+                            веду прозрачную коммуникацию с клиентами.</p>
+                    </div>
+                    <div class="item">
+                        <div class="number-wrapper">
+                            <span class="number">3</span>
+                        </div>
+                        <h3 class="title">Настойчивость и надежность</h3>
+                        <p class="desc">Всегда довожу проект до конца, какой бы сложный он ни был. Если нужно доделать
+                            секцию или форму — остаюсь сверхурочно. Если фронт не собирается, а дедлайн близко — не
+                            брошу, пока не решу проблему. Это важно для меня.</p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section class="form-section">
+        <section class="form-section pb-full">
             <div class="content">
                 <p class="overtitle">Заинтересованы?</p>
                 <h2 class="h2">Оставьте заявку</h2>
 
-                <form class="form">
-                    <!-- здесь нужна полноценная форма с валидацией, под стиль всего сайта. Поля - Имя, email, политика конф. -->
+                <form class="form mt" @submit.prevent="handleSubmit">
+                    <div class="field">
+                        <label class="label">Имя</label>
+                        <input type="text" class="input" :class="{ 'has-error': errors.name }" v-model="formData.name"
+                            @blur="validateName" @input="clearError('name')" placeholder="Введите ваше имя" />
+                        <span v-if="errors.name" class="error">{{ errors.name }}</span>
+                    </div>
+
+                    <div class="field">
+                        <label class="label">Email</label>
+                        <input type="email" class="input" :class="{ 'has-error': errors.email }"
+                            v-model="formData.email" @blur="validateEmail" @input="clearError('email')"
+                            placeholder="example@mail.com" />
+                        <span v-if="errors.email" class="error">{{ errors.email }}</span>
+                    </div>
+
+                    <div class="field">
+                        <label class="checkbox-label">
+                            <input type="checkbox" v-model="formData.agreed" @change="clearError('agreed')" />
+                            <span class="checkbox-custom"></span>
+                            <span class="checkbox-text">Я согласен(а) на обработку персональных данных</span>
+                        </label>
+                        <span v-if="errors.agreed" class="error">{{ errors.agreed }}</span>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Отправить</button>
                 </form>
             </div>
         </section>
@@ -169,6 +221,80 @@
 </template>
 
 <script setup>
+import { ref } from 'vue'
+
+const formData = ref({
+    name: '',
+    email: '',
+    agreed: false
+})
+
+const errors = ref({
+    name: '',
+    email: '',
+    agreed: ''
+})
+
+const validateName = () => {
+    if (!formData.value.name.trim()) {
+        errors.value.name = 'Поле обязательно для заполнения'
+        return false
+    }
+    if (formData.value.name.trim().length < 2) {
+        errors.value.name = 'Имя должно содержать минимум 2 символа'
+        return false
+    }
+    errors.value.name = ''
+    return true
+}
+
+const validateEmail = () => {
+    if (!formData.value.email.trim()) {
+        errors.value.email = 'Поле обязательно для заполнения'
+        return false
+    }
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+    if (!emailRegex.test(formData.value.email)) {
+        errors.value.email = 'Введите корректный email'
+        return false
+    }
+    errors.value.email = ''
+    return true
+}
+
+const validateAgreed = () => {
+    if (!formData.value.agreed) {
+        errors.value.agreed = 'Необходимо согласиться'
+        return false
+    }
+    errors.value.agreed = ''
+    return true
+}
+
+const clearError = (field) => {
+    if (errors.value[field]) {
+        errors.value[field] = ''
+    }
+}
+
+const handleSubmit = () => {
+    const isNameValid = validateName()
+    const isEmailValid = validateEmail()
+    const isAgreedValid = validateAgreed()
+
+    if (isNameValid && isEmailValid && isAgreedValid) {
+        // Здесь можно добавить отправку данных на сервер
+        console.log('Форма отправлена:', formData.value)
+        alert('Заявка отправлена!')
+
+        // Сброс формы
+        formData.value = {
+            name: '',
+            email: '',
+            agreed: false
+        }
+    }
+}
 </script>
 
 <style lang="sass">
@@ -199,6 +325,7 @@
                     background-color: #000
                     mask-size: contain
                     mask-position: center
+                    mask-repeat: no-repeat
                     display: block
                     width: 60%
                     height: 60%
@@ -308,4 +435,416 @@
                 .image
                     width: 100%
                     object-fit: contain
+
+    .benefits-section
+        .items
+            display: flex
+            flex-direction: column
+            .item
+                display: grid
+                grid-template-columns: 38px 1fr
+                grid-template-rows: 38px 1fr
+                grid-gap: 12px 8px
+                border-bottom: 1px solid #a0a0a0
+                padding: 20px 0
+                .number-wrapper
+                    display: flex
+                    justify-content: flex-end
+                    align-items: flex-start
+                    position: relative
+                    .number
+                        display: flex
+                        align-items: center
+                        justify-content: center
+                        width: 32px
+                        height: 32px
+                        background-color: var(--main-color)
+                        color: #fff
+                        border-radius: 50%
+                        font-weight: 700
+                        font-size: 18px
+                        z-index: 1
+                .title
+                    align-self: center
+                    font-weight: 500
+                .desc
+                    grid-column: 2/3
+                &:last-child
+                    border-bottom: none
+
+    .form-section
+        .form
+            display: flex
+            flex-direction: column
+            gap: 20px
+            .field
+                display: flex
+                flex-direction: column
+                gap: 8px
+                .label
+                    font-size: 14px
+                    font-weight: 500
+                    color: var(--dark-color)
+                .input
+                    padding: 12px 16px
+                    border: 1px solid #a0a0a0
+                    border-radius: 6px
+                    font-size: 16px
+                    background-color: #fff
+                    transition: border-color .3s ease
+                    &::placeholder
+                        color: var(--gray-text)
+                    &:focus
+                        border-color: var(--main-color)
+                    &.has-error
+                        border-color: var(--error-color)
+                .error
+                    font-size: 12px
+                    color: var(--error-color)
+                .checkbox-label
+                    display: flex
+                    align-items: flex-start
+                    gap: 12px
+                    cursor: pointer
+                    input[type="checkbox"]
+                        display: none
+                    .checkbox-custom
+                        width: 20px
+                        height: 20px
+                        min-width: 20px
+                        border: 2px solid #a0a0a0
+                        border-radius: 4px
+                        position: relative
+                        transition: all .3s ease
+                        margin-top: 2px
+                    input:checked + .checkbox-custom
+                        background-color: var(--main-color)
+                        border-color: var(--main-color)
+                        &::after
+                            content: ''
+                            position: absolute
+                            top: 50%
+                            left: 50%
+                            transform: translate(-50%, -60%) rotate(45deg)
+                            width: 5px
+                            height: 10px
+                            border: solid #fff
+                            border-width: 0 2px 2px 0
+                    .checkbox-text
+                        font-size: 14px
+                        color: var(--dark-color)
+                        line-height: 1.5
+                        user-select: none
+            .submit-btn
+                padding: 16px 32px
+                background-color: var(--main-color)
+                color: #fff
+                border: none
+                border-radius: 6px
+                font-size: 16px
+                font-weight: 700
+                cursor: pointer
+                transition: background-color .3s ease, transform .2s ease
+                align-self: flex-start
+                margin-top: 10px
+                &:hover
+                    background-color: #e69500
+                &:active
+                    transform: scale(0.98)
+
+@media only screen and (min-width: $bp-tablet)
+    .home-page
+        .main-section
+            .content
+                align-items: center
+            .socials
+                .link
+                    width: 45px
+                    height: 45px
+            .h1
+                font-size: 2.5rem
+                text-align: center
+                margin: 40px 0
+            .overtitle
+                &::before
+                    left: 0%
+            .image
+                width: 50vw
+                height: 60vw
+            .btns
+                font-size: 18px
+                .btn
+                    padding: 20px 40px
+
+        .skills-section
+            .h2, .text
+                text-align: center
+            .text
+                font-size: 18px
+                margin-top: 20px
+            .items
+                .item
+                    grid-gap: 10px 20px
+                    grid-template-columns: 60px 1fr
+                    grid-template-rows: 60px 1fr
+                    .icon-wrapper
+                        grid-row: 1/3
+                        justify-content: center
+                        align-items: center
+                        .icon
+                            width: 40px
+                        .circle
+                            left: 0
+                            top: unset
+                            bottom: 50%
+                            width: 40px
+                            height: 40px
+                    .title
+                        font-size: 20px
+                    .desc
+                        font-size: 18px
+
+        .portfolio-section
+            .h2
+                text-align: center
+            .items
+                .item
+                    .prompt
+                        font-size: 1rem
+                        padding: 8px 12px
+                        font-weight: 500
+
+        .benefits-section
+            .h2
+                text-align: center
+            .items
+                .item
+                    grid-template-columns: 45px 1fr
+                    grid-template-rows: 45px 1fr
+                    grid-gap: 20px
+                    .number-wrapper
+                        .number
+                            width: 45px
+                            height: 45px
+                            font-size: 1.75rem
+                    .title
+                        font-size: 20px
+                    .desc
+                        font-size: 18px
+
+        .form-section
+            .h2
+                text-align: center
+            .form
+                max-width: 600px
+                margin-left: auto
+                margin-right: auto
+
+@media only screen and (min-width: $bp-tablet-landscape-up)
+    .home-page
+        .main-section
+            .content
+                display: grid
+                grid-template-columns: 1fr 1fr
+                grid-template-rows: auto 1fr auto 1fr
+                grid-template-areas: 'socials socials' 'image overtitle' 'image title' 'image btns'
+                grid-gap: 0 40px
+            .socials
+                grid-area: socials
+                .link
+                    width: 40px
+                    height: 40px
+            .h1
+                font-size: 2.5rem
+                text-align: left
+                margin:  0
+                grid-area: title
+                align-self: start
+            .overtitle
+                grid-area: overtitle
+                text-align: left
+                align-self: start
+                &::before
+                    left: 0%
+            .image
+                grid-area: image
+                width: 100%
+                height: 550px
+            .btns
+                grid-area: btns
+                font-size: 18px
+                .btn
+                    padding: 20px 40px
+
+        .skills-section
+            .h2, .text
+                text-align: center
+            .text
+                font-size: 18px
+                margin-top: 20px
+            .items
+                display: grid
+                grid-template-columns: 1fr 1fr
+                .item
+                    grid-gap: 10px 20px
+                    grid-template-columns: 60px 1fr
+                    grid-template-rows: 60px 1fr
+                    padding: 20px
+                    .icon-wrapper
+                        grid-row: 1/3
+                        justify-content: center
+                        align-items: center
+                        .icon
+                            width: 40px
+                        .circle
+                            left: 0
+                            top: unset
+                            bottom: 50%
+                            width: 40px
+                            height: 40px
+                    .title
+                        font-size: 20px
+                    .desc
+                        font-size: 18px
+                    &:nth-child(5)
+                        border-bottom: none
+                    &:nth-child(even)
+                        border-left: 1px solid #a0a0a0
+
+        .portfolio-section
+            .h2
+                text-align: center
+            .items
+                display: grid
+                grid-template-columns: 1fr 1fr
+                .item
+                    transition: box-shadow .3s ease
+                    .prompt
+                        font-size: 14px
+                        padding: 8px 12px
+                        font-weight: 500
+                    &:hover
+                        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px
+
+        .benefits-section
+            .h2
+                text-align: center
+            .items
+                display: grid
+                grid-template-columns: 1fr 1fr 1fr
+                .item
+                    grid-template-columns: 40px 1fr
+                    grid-template-rows: 40px 1fr
+                    grid-gap: 10px 20px
+                    border: none
+                    .number-wrapper
+                        .number
+                            width: 40px
+                            height: 40px
+                            font-size: 1.75rem
+                    .title
+                        font-size: 18px
+                    .desc
+                        font-size: 1rem
+
+        .form-section
+            .h2
+                text-align: center
+            .form
+                max-width: 600px
+                margin-left: auto
+                margin-right: auto
+
+@media only screen and (min-width: $bp-pc)
+    .home-page
+        .main-section
+            .content
+                display: grid
+                grid-template-columns: 3fr 5fr
+                grid-template-areas: 'socials socials' 'image overtitle' 'image title' 'image btns'
+                grid-gap: 0 40px
+                padding-top: 0
+                padding-bottom: 0
+            .socials
+                grid-area: socials
+                .link
+                    width: 45px
+                    height: 45px
+                    .icon
+                        width: 50%
+                        height: 50%
+            .h1
+                font-size: 3.25rem
+                text-align: left
+                margin:  0
+                grid-area: title
+                align-self: start
+                margin-top: -10%
+            .overtitle
+                grid-area: overtitle
+                text-align: left
+                align-self: start
+                &::before
+                    left: 0%
+            .image
+                grid-area: image
+                width: 100%
+                height: 550px
+            .btns
+                grid-area: btns
+                margin: 0
+                font-size: 18px
+                .btn
+                    padding: 20px 40px
+                    &:hover
+                        background-color: rgba(255, 255, 255, .5)
+                    &-highlight
+                        transition: .3s ease
+                        &:hover
+                            background-color: var(--main-color)
+                            box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px
+
+        .skills-section
+            .h2, .text
+                text-align: center
+            .text
+                font-size: 18px
+                margin-top: 20px
+            .items
+                display: grid
+                grid-template-columns: 1fr 1fr
+                .item
+                    grid-gap: 10px 20px
+                    grid-template-columns: 60px 1fr
+                    grid-template-rows: 60px 1fr
+                    padding: 20px
+                    .icon-wrapper
+                        grid-row: 1/3
+                        justify-content: center
+                        align-items: center
+                        .icon
+                            width: 40px
+                        .circle
+                            left: 0
+                            top: unset
+                            bottom: 50%
+                            width: 40px
+                            height: 40px
+                    .title
+                        font-size: 20px
+                    .desc
+                        font-size: 16px
+                    &:nth-child(5)
+                        border-bottom: none
+                    &:nth-child(even)
+                        border-left: 1px solid #a0a0a0
+        .form-section
+            .h2
+                text-align: center
+            .form
+                max-width: 600px
+                margin-left: auto
+                margin-right: auto
+                padding: 10px
+                margin-top: 40px
 </style>
