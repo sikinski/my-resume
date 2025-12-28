@@ -13,7 +13,8 @@ export default defineNuxtConfig({
       },
       charset: 'utf-8',
       viewport: 'width=device-width, initial-scale=1',
-    }
+    },
+    scrollRestoration: 'manual'
   },
 
   ssr: false,
@@ -24,4 +25,27 @@ export default defineNuxtConfig({
       mail_to: process.env.MAIL_TO,
     }
   },
+
+
+  scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition;
+    }
+
+    if (from && to && from.path !== to.path) {
+      return { top: 0 };
+    }
+
+    if (to.hash) {
+      return {
+        el: to.hash,
+        behavior: 'smooth',
+        // Можно добавить offset, если есть фиксированный хедер
+        // top: 100
+      };
+    }
+
+    return { top: 0 };
+  },
+
 })
