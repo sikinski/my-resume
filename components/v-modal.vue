@@ -72,4 +72,3 @@ const close = () => {
         &:hover
             color: #000
 </style>
-

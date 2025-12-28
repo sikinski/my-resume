@@ -4,6 +4,16 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
   css: ['@/assets/styles/index.sass'],
 
+  app: {
+    head: {
+      htmlAttrs: {
+        lang: 'ru'
+      },
+      charset: 'utf-8',
+      viewport: 'width=device-width, initial-scale=1',
+    }
+  },
+
   runtimeConfig: {
     public: {
       backend_address: process.env.BACKEND_ADDRESS,

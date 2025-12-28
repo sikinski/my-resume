@@ -41,7 +41,7 @@
                         </div>
                         <h3 class="title">Разработка фронтэнда</h3>
                         <p class="desc">Разработка современных веб-приложений на Vue 3 / Nuxt 3. Использую SSR,
-                            серверные компоненты, composables, stores, nuxt-modules, pnpm, Cursor AI</p>
+                            серверные компоненты, composables, stores, nuxt-modules, pnpm, git, Cursor AI</p>
                     </div>
                     <div class="item">
                         <div class="icon-wrapper">
@@ -49,8 +49,9 @@
                             <img src="@/assets/images/icons/circle.svg" alt="" class="circle">
                         </div>
                         <h3 class="title">Верстка сайтов</h3>
-                        <p class="desc">Mobile-first верстка, SASS, адаптивная верстка, кроссбраузерность. Умею в Pixel
-                            Perfect</p>
+                        <p class="desc">Mobile-first верстка, SASS, адаптивная верстка, кроссбраузерность. Верстка из
+                            макетов из
+                            Figma и "на глаз". Умею в Pixel Perfect</p>
                     </div>
                     <div class="item">
                         <div class="icon-wrapper">
@@ -156,8 +157,9 @@
                         </div>
                         <h3 class="title">Эффективность и скорость разработки</h3>
                         <p class="desc">
-                            Работаю быстро, но качественно. Лендинг с формами и SEO делаю за 8 часов. Недавно с Cursor
-                            AI сделала сайт из 5 страниц с нуля за 6 часов. Использую современные инструменты и
+                            Работаю быстро, но качественно. Полностью готовый лендинг с&nbsp;отправкой заявки делаю за 8
+                            часов. Недавно с&nbsp;Cursor
+                            AI сделала сайт из 5 страниц с&nbsp;нуля за 6 часов. Использую современные инструменты и
                             проверенные решения, чтобы ускорить разработку.
                         </p>
                     </div>
@@ -167,8 +169,8 @@
                         </div>
                         <h3 class="title">Профессиональная ответственность</h3>
                         <p class="desc">Всегда соблюдаю дедлайны, просыпаюсь вовремя. Использую канбан для отслеживания
-                            задач. Все делаю сама, не делегирую, чтобы контролировать качество. Записываю все важное и
-                            веду прозрачную коммуникацию с клиентами.</p>
+                            задач. Не делегирую свои задачи. Записываю все важное и умею вести коммуникацию с
+                            заказчиками.</p>
                     </div>
                     <div class="item">
                         <div class="number-wrapper">
@@ -176,7 +178,7 @@
                         </div>
                         <h3 class="title">Настойчивость и надежность</h3>
                         <p class="desc">Всегда довожу проект до конца, какой бы сложный он ни был. Если нужно доделать
-                            секцию или форму — остаюсь сверхурочно. Если фронт не собирается, а дедлайн близко — не
+                            секцию или форму — остаюсь до поздна. Если фронт не собирается, а&nbsp;дедлайн близко — не
                             брошу, пока не решу проблему. Это важно для меня.</p>
                     </div>
                 </div>
@@ -208,7 +210,9 @@
                         <label class="checkbox-label">
                             <input type="checkbox" v-model="formData.agreed" @change="clearError('agreed')" />
                             <span class="checkbox-custom"></span>
-                            <span class="checkbox-text">Я согласен(а) на обработку персональных данных</span>
+                            <span class="checkbox-text">Я согласен(а) на обработку персональных данных (<NuxtLink
+                                    to="/privacy" target="_blank" class="privacy-link">политика конфиденциальности
+                                </NuxtLink>)</span>
                         </label>
                         <span v-if="errors.agreed" class="error">{{ errors.agreed }}</span>
                     </div>
@@ -220,9 +224,9 @@
             </div>
         </section>
 
-        <Modal v-model="showModal">
+        <v-modal v-model="showModal">
             <p style="font-size: 18px; font-weight: 500; margin: 0;">{{ modalMessage }}</p>
-        </Modal>
+        </v-modal>
     </div>
 </template>
 
@@ -231,6 +235,55 @@ import { ref } from 'vue'
 import { makeEmail } from '@/utils/makeEmail'
 
 const config = useRuntimeConfig()
+
+useHead({
+    title: 'Ульяна Фомина - Frontend разработчик сайтов из Челябинска',
+    meta: [
+        {
+            name: 'description',
+            content: 'Frontend разработчик сайтов из Челябинска. Разработка на Vue 3 / Nuxt 3, верстка, оптимизация и SEO. Портфолио проектов.'
+        },
+        {
+            name: 'keywords',
+            content: 'frontend разработчик, vue разработчик, nuxt разработчик, верстка сайтов, челябинск, веб-разработка'
+        },
+        {
+            property: 'og:title',
+            content: 'Ульяна Фомина - Frontend разработчик сайтов'
+        },
+        {
+            property: 'og:description',
+            content: 'Frontend разработчик сайтов из Челябинска. Разработка на Vue 3 / Nuxt 3, верстка, оптимизация и SEO.'
+        },
+        {
+            property: 'og:type',
+            content: 'website'
+        },
+        {
+            property: 'og:url',
+            content: 'https://domain.com'
+        },
+        {
+            name: 'twitter:card',
+            content: 'summary'
+        },
+        {
+            name: 'twitter:title',
+            content: 'Ульяна Фомина - Frontend разработчик сайтов'
+        },
+        {
+            name: 'twitter:description',
+            content: 'Frontend разработчик сайтов из Челябинска. Разработка на Vue 3 / Nuxt 3, верстка, оптимизация и SEO.'
+        }
+    ],
+    link: [
+        {
+            rel: 'icon',
+            type: 'image/svg+xml',
+            href: '/favicon.svg'
+        }
+    ]
+})
 
 const formData = ref({
     name: '',
@@ -588,6 +641,12 @@ const handleSubmit = async () => {
                         color: var(--dark-color)
                         line-height: 1.5
                         user-select: none
+                        .privacy-link
+                            color: var(--main-color)
+                            text-decoration: none
+                            transition: opacity .3s ease
+                            &:hover
+                                opacity: 0.7
             .submit-btn
                 padding: 16px 32px
                 background-color: var(--main-color)
