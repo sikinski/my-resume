@@ -2,5 +2,12 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: false },
-  css: ['@/assets/styles/index.sass']
+  css: ['@/assets/styles/index.sass'],
+
+  runtimeConfig: {
+    public: {
+      backend_address: process.env.BACKEND_ADDRESS,
+      mail_to: process.env.MAIL_TO,
+    }
+  },
 })

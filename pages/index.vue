@@ -213,15 +213,24 @@
                         <span v-if="errors.agreed" class="error">{{ errors.agreed }}</span>
                     </div>
 
-                    <button type="submit" class="submit-btn">Отправить</button>
+                    <button type="submit" class="submit-btn" :disabled="isLoading">
+                        {{ isLoading ? 'Отправка...' : 'Отправить' }}
+                    </button>
                 </form>
             </div>
         </section>
+
+        <Modal v-model="showModal">
+            <p style="font-size: 18px; font-weight: 500; margin: 0;">{{ modalMessage }}</p>
+        </Modal>
     </div>
 </template>
 
 <script setup>
 import { ref } from 'vue'
+import { makeEmail } from '@/utils/makeEmail'
+
+const config = useRuntimeConfig()
 
 const formData = ref({
     name: '',
@@ -234,6 +243,10 @@ const errors = ref({
     email: '',
     agreed: ''
 })
+
+const isLoading = ref(false)
+const showModal = ref(false)
+const modalMessage = ref('')
 
 const validateName = () => {
     if (!formData.value.name.trim()) {
@@ -277,15 +290,49 @@ const clearError = (field) => {
     }
 }
 
-const handleSubmit = () => {
+const handleSubmit = async () => {
     const isNameValid = validateName()
     const isEmailValid = validateEmail()
     const isAgreedValid = validateAgreed()
 
-    if (isNameValid && isEmailValid && isAgreedValid) {
-        // Здесь можно добавить отправку данных на сервер
-        console.log('Форма отправлена:', formData.value)
-        alert('Заявка отправлена!')
+    if (!isNameValid || !isEmailValid || !isAgreedValid) {
+        return
+    }
+
+    isLoading.value = true
+
+    try {
+        const backendAddress = config.public.backend_address
+        const mailTo = config.public.mail_to
+        const currentUrl = window.location.href
+
+        const emailData = makeEmail({
+            name: formData.value.name,
+            email: formData.value.email
+        }, currentUrl)
+
+        const response = await fetch(`${backendAddress}/mail`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                mailTo: mailTo,
+                mailString: emailData,
+                site_from: 'сайт-визитка Ульяны',
+                data: {
+                    name: formData.value.name,
+                    email: formData.value.email,
+                },
+            }),
+        })
+
+        if (!response.ok) {
+            throw new Error('Ошибка при отправке заявки')
+        }
+
+        modalMessage.value = 'Заявка отправлена!'
+        showModal.value = true
 
         // Сброс формы
         formData.value = {
@@ -293,6 +340,12 @@ const handleSubmit = () => {
             email: '',
             agreed: false
         }
+    } catch (error) {
+        console.error('Ошибка отправки формы:', error)
+        modalMessage.value = 'Произошла ошибка при отправке заявки. Попробуйте позже.'
+        showModal.value = true
+    } finally {
+        isLoading.value = false
     }
 }
 </script>
@@ -544,13 +597,16 @@ const handleSubmit = () => {
                 font-size: 16px
                 font-weight: 700
                 cursor: pointer
-                transition: background-color .3s ease, transform .2s ease
+                transition: background-color .3s ease, transform .2s ease, opacity .3s ease
                 align-self: flex-start
                 margin-top: 10px
-                &:hover
+                &:hover:not(:disabled)
                     background-color: #e69500
-                &:active
+                &:active:not(:disabled)
                     transform: scale(0.98)
+                &:disabled
+                    opacity: 0.6
+                    cursor: not-allowed
 
 @media only screen and (min-width: $bp-tablet)
     .home-page
