@@ -10,7 +10,7 @@
                     <h2 class="h2">1. Общие положения</h2>
                     <p class="text">
                         Настоящая Политика конфиденциальности определяет порядок обработки и защиты персональных данных
-                        пользователей сайта domain.com (далее — Сайт).
+                        пользователей сайта https://sikinski.github.io/my-resume/ (далее — Сайт).
                     </p>
                     <p class="text">
                         Используя Сайт, вы соглашаетесь с условиями настоящей Политики конфиденциальности.
@@ -93,7 +93,7 @@ const currentDate = new Date().toLocaleDateString('ru-RU', {
 })
 
 useHead({
-    title: 'Политика конфиденциальности - domain.com',
+    title: 'Политика конфиденциальности - https://sikinski.github.io/my-resume/',
     meta: [
         {
             name: 'description',
