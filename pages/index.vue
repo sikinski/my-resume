@@ -359,20 +359,13 @@ const handleSubmit = async () => {
     isLoading.value = true
 
     try {
-        // Используем конфигурацию из runtimeConfig
-        const config = useRuntimeConfig()
-        console.log(config.public);
-
         const backendAddress = config.public.backend_address
         const mailTo = config.public.mail_to
-        console.log(backendAddress, mailTo); // https://careerpicker.ru/backend ulyana.sikinski@gmail.com
-
+        const currentUrl = window.location.href
 
         if (!backendAddress || !mailTo) {
-            throw new Error('Err')
+            throw new Error('Конфигурация не настроена')
         }
-
-        const currentUrl = window.location.href
 
         const emailData = makeEmail({
             name: formData.value.name,

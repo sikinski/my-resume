@@ -5,8 +5,8 @@ export default defineNuxtConfig({
   css: ['@/assets/styles/index.sass'],
 
   app: {
-    baseURL: process.env.NUXT_PUBLIC_BASE_URL || '/my-resume/',
-    cdnURL: process.env.NUXT_PUBLIC_BASE_URL || '/my-resume/',
+    baseURL: process.env.NUXT_PUBLIC_BASE_URL || '/',
+    cdnURL: process.env.NUXT_PUBLIC_BASE_URL || '/',
     head: {
       htmlAttrs: {
         lang: 'ru'
@@ -21,8 +21,8 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
-      backend_address: 'https://careerpicker.ru/backend',
-      mail_to: 'ulyana.sikinski@gmail.com',
+      backend_address: process.env.BACKEND_ADDRESS || 'https://careerpicker.ru/backend',
+      mail_to: process.env.MAIL_TO || 'ulyana.sikinski@gmail.com',
     }
   },
 
