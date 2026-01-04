@@ -1,7 +1,7 @@
 export function makeEmail(form, currentUrl) {
-    const { name, email } = form
+  const { name, email } = form
 
-    return `
+  return `
     <div style="font-family: Arial, sans-serif; padding:20px; background:#f7f7f7;">
       <div style="max-width:600px; margin:auto; background:#ffffff; padding:20px; border-radius:8px;">
         
@@ -16,12 +16,6 @@ export function makeEmail(form, currentUrl) {
           <tr>
             <td style="padding:8px 0; font-weight:bold; color:#333;">Email</td>
             <td style="padding:8px 0; color:#555;">${email || "—"}</td>
-          </tr>
-          <tr>
-            <td style="padding:8px 0; font-weight:bold; color:#333;">Страница заявки</td>
-            <td style="padding:8px 0; color:#555;">
-              <a href="${currentUrl}" style="color:#FFA501; text-decoration:none;">${currentUrl || "—"}</a>
-            </td>
           </tr>
         </table>
 
