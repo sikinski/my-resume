@@ -3,9 +3,9 @@
         <section class="main-section">
             <div class="content">
                 <div class="socials">
-                    <a href="https://t.me/sikinski" class="link" target="_blank"><span class="icon icon-tg"></span></a>
-                    <a href="https://wa.me/79221594805" class="link" target="_blank"><span
-                            class="icon icon-whatsapp"></span></a>
+                    <a href="https://t.me/ayonana" class="link" target="_blank"><span class="icon icon-tg"></span></a>
+                    <!-- <a href="https://wa.me/79227086719" class="link" target="_blank"><span
+                            class="icon icon-whatsapp"></span></a> -->
                     <a href="mailto:ulyana.sikinski@gmail.com" class="link" target="_blank"><span
                             class="icon icon-email"></span></a>
                     <a href="https://visualsenselab.ru" class="link" target="_blank"><span
@@ -15,7 +15,8 @@
                 </div>
 
                 <p class="overtitle">Меня зовут Ульяна Фомина</p>
-                <h1 class="h1">Я&nbsp;— <span class="highlight">Frontend-разработчик</span> сайтов из&nbsp;Челябинска
+                <h1 class="h1">Я&nbsp;— <span class="highlight">Frontend-разработчик</span> с&nbsp;опытом работы более
+                    3-х лет
                 </h1>
 
                 <div class="btns">
@@ -23,7 +24,7 @@
                     <a class="btn" href="#form">Написать</a>
                 </div>
 
-                <img src="@/assets/images/about_image.webp" alt="" class="image">
+                <img src="@/assets/images/main_image.webp" alt="" class="image">
             </div>
         </section>
 
@@ -32,9 +33,9 @@
                 <p class="overtitle">Что я умею</p>
                 <h2 class="h2">Мои навыки и компетенции</h2>
 
-                <p class="text">Привет! Мой опыт работы 3.5 года, из&nbsp;них коммерческого по&nbsp;профессии&nbsp;— 1.2
-                    года.
-                    Ознакомьтесь с&nbsp;тем, что я&nbsp;умею делать:</p>
+                <p class="text">Фронтэнд разработчик с&nbsp;опытом работы более 3-х лет. Специализируюсь
+                    на&nbsp;создании современных веб-приложений от&nbsp;прототипа до&nbsp;релиза. Ознакомьтесь
+                    с&nbsp;моими компетенциями:</p>
 
                 <span class="title-line"></span>
 
@@ -45,8 +46,9 @@
                             <img src="@/assets/images/icons/circle.svg" alt="" class="circle">
                         </div>
                         <h3 class="title">Разработка фронтэнда</h3>
-                        <p class="desc">Разработка современных веб-приложений на&nbsp;Vue 3 / Nuxt 3. Использую SSR,
-                            серверные компоненты, composables, stores, nuxt-modules, pnpm, git, Cursor AI</p>
+                        <p class="desc">Разработка современных веб-приложений на&nbsp;Vue 3, Nuxt 3, Composition API,
+                            Pinia, Vite. Настройка SSR/SSG, работа с&nbsp;серверными компонентами, REST API, Git,
+                            Docker. Создаю лендинги, корпоративные сайты, админ панели, интернет-магазины, сервисы</p>
                     </div>
                     <div class="item">
                         <div class="icon-wrapper">
@@ -54,56 +56,47 @@
                             <img src="@/assets/images/icons/circle.svg" alt="" class="circle">
                         </div>
                         <h3 class="title">Верстка сайтов</h3>
-                        <p class="desc">Mobile-first верстка, SASS, адаптивная верстка, кроссбраузерность. Верстка
-                            из&nbsp;
-                            макетов из&nbsp;
-                            Figma и&nbsp;"на&nbsp;глаз". Умею в&nbsp;Pixel Perfect</p>
+                        <p class="desc">CSS (SASS, Pixel Perfect, Mobile first), HTML (семантическая и&nbsp;валидная
+                            верстка, SEO оптимизация). Работа с&nbsp;Figma, адаптивная верстка, кроссбраузерность</p>
                     </div>
                     <div class="item">
                         <div class="icon-wrapper">
                             <img src="@/assets/images/icons/devops.svg" alt="" class="icon" />
                             <img src="@/assets/images/icons/circle.svg" alt="" class="circle">
                         </div>
-                        <h3 class="title">Немного Devops</h3>
-                        <p class="desc">Умею настраивать Nginx на&nbsp;работу фронта, бэка. Умею работать с&nbsp;Docker,
-                            сама
-                            создаю Dockerfile, docker-compose.yml для&nbsp;фронта. Знаю частые причины падений фронта
-                            в&nbsp;
-                            докере</p>
+                        <h3 class="title">DevOps и инфраструктура</h3>
+                        <p class="desc">Docker (настройка контейнеров, написание Docker файлов), CI/CD, настройка Nginx.
+                            Понимаю процессы деплоя и&nbsp;поддержки инфраструктуры фронтенд-приложений</p>
                     </div>
                     <div class="item">
                         <div class="icon-wrapper">
                             <img src="@/assets/images/icons/backend.svg" alt="" class="icon" />
                             <img src="@/assets/images/icons/circle.svg" alt="" class="circle">
                         </div>
-                        <h3 class="title">Чуть-чуть бэкэнда</h3>
-                        <p class="desc">Умею создавать простые REST API сервисы для&nbsp;небольших задач (отправка
-                            e-mail,
-                            авторизация с&nbsp;токенами,
-                            простенькие CRUD). Стек&nbsp;— Node.js + Prisma + Fastify</p>
+                        <h3 class="title">Backend и интеграции</h3>
+                        <p class="desc">Опыт создания Fullstack приложений (Node.js, Fastify, Prisma). Интегрирую
+                            сторонние API, подключаю платежные модули. Имею глубокое понимание работы backend
+                            и&nbsp;взаимодействия с&nbsp;сервером</p>
                     </div>
                     <div class="item">
                         <div class="icon-wrapper">
                             <img src="@/assets/images/icons/optimization.svg" alt="" class="icon" />
                             <img src="@/assets/images/icons/circle.svg" alt="" class="circle">
                         </div>
-                        <h3 class="title">Оптимизация. SEO и не только</h3>
-                        <p class="desc">Всегда забочусь об&nbsp;оптимизации. Важна быстрая скорость открытия сайта
-                            и&nbsp;хорошее
-                            ранжирование сайта в&nbsp;поиске. Сжимаю картинки, смотрю на&nbsp;вес бандла, проверяю сайты
-                            на&nbsp;Google
-                            PageSpeed + Lighthouse</p>
+                        <h3 class="title">Оптимизация и качество</h3>
+                        <p class="desc">Фокус на&nbsp;качестве кода и&nbsp;скорости работы. Обрабатываю ошибки, слежу
+                            за&nbsp;метриками (Pagespeed, Lighthouse). Оптимизация производительности, работа
+                            с&nbsp;бандлами, использование AI в&nbsp;работе</p>
                     </div>
                     <div class="item">
                         <div class="icon-wrapper">
                             <img src="@/assets/images/icons/business.svg" alt="" class="icon" />
                             <img src="@/assets/images/icons/circle.svg" alt="" class="circle">
                         </div>
-                        <h3 class="title">Помощь бизнесу</h3>
-                        <p class="desc">Использую все необходимые современные средства для&nbsp;создания хорошего сайта
-                            быстро. Не&nbsp;трачу время на&nbsp;изобретение велосипеда, использую готовые инструменты.
-                            В&nbsp;последнее
-                            время использую AI.</p>
+                        <h3 class="title">Работа в команде</h3>
+                        <p class="desc">Хорошо разделяю свою работу и&nbsp;чужую, не&nbsp;делегирую свои задачи, понимаю
+                            поэтапность создания продукта. Есть опыт руководства небольшой группой фронтэнд
+                            разработчиков. Есть опыт делового общения</p>
                     </div>
                 </div>
             </div>
@@ -167,37 +160,30 @@
                         <div class="number-wrapper">
                             <span class="number">1</span>
                         </div>
-                        <h3 class="title">Эффективность и&nbsp;скорость разработки</h3>
+                        <h3 class="title">Разработка от прототипа до релиза</h3>
                         <p class="desc">
-                            Работаю быстро, но&nbsp;качественно. Полностью готовый лендинг с&nbsp;отправкой заявки делаю
-                            за&nbsp;8&nbsp;
-                            часов. Недавно с&nbsp;Cursor
-                            AI сделала сайт из&nbsp;5&nbsp;страниц с&nbsp;нуля за&nbsp;6&nbsp;часов. Использую
-                            современные инструменты и&nbsp;
-                            проверенные решения, чтобы ускорить разработку.
+                            От&nbsp;верстки макетов до&nbsp;запуска полноценного веб-приложения. Создаю лендинги,
+                            корпоративные сайты, админ панели, интернет-магазины, сервисы. Фокус на&nbsp;качестве кода
+                            и&nbsp;скорости работы: пишу серверные компоненты, настраиваю SSR/SSG, обрабатываю ошибки.
                         </p>
                     </div>
                     <div class="item">
                         <div class="number-wrapper">
                             <span class="number">2</span>
                         </div>
-                        <h3 class="title">Профессиональная ответственность</h3>
-                        <p class="desc">Всегда соблюдаю дедлайны, просыпаюсь вовремя. Использую канбан
-                            для&nbsp;отслеживания
-                            задач. Не&nbsp;делегирую свои задачи. Записываю все важное и&nbsp;умею вести коммуникацию
-                            с&nbsp;
-                            заказчиками.</p>
+                        <h3 class="title">Интеграции и взаимодействие с backend</h3>
+                        <p class="desc">Интегрирую сторонние API, подключаю платежные модули. Имею глубокое понимание
+                            работы backend и&nbsp;взаимодействия с&nbsp;сервером. Хорошо разделяю свою работу
+                            и&nbsp;чужую, понимаю поэтапность создания продукта.</p>
                     </div>
                     <div class="item">
                         <div class="number-wrapper">
                             <span class="number">3</span>
                         </div>
-                        <h3 class="title">Настойчивость и надежность</h3>
-                        <p class="desc">Всегда довожу проект до&nbsp;конца, какой&nbsp;бы сложный он&nbsp;ни&nbsp;был.
-                            Если нужно доделать
-                            секцию или&nbsp;форму&nbsp;— остаюсь до&nbsp;поздна. Если фронт не&nbsp;собирается,
-                            а&nbsp;дедлайн близко&nbsp;— не&nbsp;
-                            брошу, пока не&nbsp;решу проблему. Это важно для&nbsp;меня.</p>
+                        <h3 class="title">Профессионализм и развитие</h3>
+                        <p class="desc">Люблю свою сферу, готова учиться и&nbsp;повышать квалификацию. Умею работать
+                            в&nbsp;команде, есть опыт руководства небольшой группой фронтэнд разработчиков. Трудолюбива,
+                            открыта к&nbsp;новым знаниям, ответственна.</p>
                     </div>
                 </div>
             </div>
@@ -255,11 +241,11 @@ import { makeEmail } from '@/utils/makeEmail'
 const config = useRuntimeConfig()
 
 useHead({
-    title: 'Ульяна Фомина - Frontend разработчик сайтов из Челябинска',
+    title: 'Ульяна Фомина - Frontend разработчик с опытом более 3-х лет',
     meta: [
         {
             name: 'description',
-            content: 'Frontend разработчик сайтов из Челябинска. Разработка на Vue 3 / Nuxt 3, верстка, оптимизация и SEO. Портфолио проектов.'
+            content: 'Frontend разработчик с опытом работы более 3-х лет. Vue 3, Nuxt 3, Composition API, Pinia. Разработка от прототипа до релиза. Портфолио проектов.'
         },
         {
             name: 'keywords',
@@ -267,11 +253,11 @@ useHead({
         },
         {
             property: 'og:title',
-            content: 'Ульяна Фомина - Frontend разработчик сайтов'
+            content: 'Ульяна Фомина - Frontend разработчик с опытом более 3-х лет'
         },
         {
             property: 'og:description',
-            content: 'Frontend разработчик сайтов из Челябинска. Разработка на Vue 3 / Nuxt 3, верстка, оптимизация и SEO.'
+            content: 'Frontend разработчик с опытом работы более 3-х лет. Vue 3, Nuxt 3, Composition API, Pinia. Разработка от прототипа до релиза.'
         },
         {
             property: 'og:type',
@@ -287,11 +273,11 @@ useHead({
         },
         {
             name: 'twitter:title',
-            content: 'Ульяна Фомина - Frontend разработчик сайтов'
+            content: 'Ульяна Фомина - Frontend разработчик с опытом более 3-х лет'
         },
         {
             name: 'twitter:description',
-            content: 'Frontend разработчик сайтов из Челябинска. Разработка на Vue 3 / Nuxt 3, верстка, оптимизация и SEO.'
+            content: 'Frontend разработчик с опытом работы более 3-х лет. Vue 3, Nuxt 3, Composition API, Pinia. Разработка от прототипа до релиза.'
         }
     ],
     link: [
