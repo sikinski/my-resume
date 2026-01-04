@@ -5,8 +5,8 @@ export default defineNuxtConfig({
   css: ['@/assets/styles/index.sass'],
 
   app: {
-    baseURL: process.env.NUXT_PUBLIC_BASE_URL || '/',
-    cdnURL: process.env.NUXT_PUBLIC_BASE_URL || '/',
+    baseURL: process.env.NUXT_PUBLIC_BASE_URL || '/my-resume/',
+    cdnURL: process.env.NUXT_PUBLIC_BASE_URL || '/my-resume/',
     head: {
       htmlAttrs: {
         lang: 'ru'
