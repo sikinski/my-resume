@@ -294,7 +294,6 @@ const formData = ref({
     email: '',
     agreed: false
 })
-console.log('test');
 
 const errors = ref({
     name: '',
@@ -360,8 +359,19 @@ const handleSubmit = async () => {
     isLoading.value = true
 
     try {
+        // Используем конфигурацию из runtimeConfig
+        const config = useRuntimeConfig()
+        console.log(config.public);
+
         const backendAddress = config.public.backend_address
         const mailTo = config.public.mail_to
+        console.log(backendAddress, mailTo); // https://careerpicker.ru/backend ulyana.sikinski@gmail.com
+
+
+        if (!backendAddress || !mailTo) {
+            throw new Error('Err')
+        }
+
         const currentUrl = window.location.href
 
         const emailData = makeEmail({

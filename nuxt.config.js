@@ -21,8 +21,8 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
-      backend_address: process.env.BACKEND_ADDRESS,
-      mail_to: process.env.MAIL_TO,
+      backend_address: 'https://careerpicker.ru/backend',
+      mail_to: 'ulyana.sikinski@gmail.com',
     }
   },
 
