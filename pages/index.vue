@@ -8,8 +8,8 @@
                             class="icon icon-whatsapp"></span></a> -->
                     <a href="mailto:ulyana.sikinski@gmail.com" class="link" target="_blank"><span
                             class="icon icon-email"></span></a>
-                    <a href="https://visualsenselab.ru" class="link" target="_blank"><span
-                            class="icon icon-site"></span></a>
+                    <!-- <a href="https://visualsenselab.ru" class="link" target="_blank"><span
+                            class="icon icon-site"></span></a> -->
                     <a href="https://github.com/sikinski" class="link" target="_blank"><span
                             class="icon icon-github"></span></a>
                 </div>
