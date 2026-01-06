@@ -114,9 +114,13 @@
                 <span class="title-line"></span>
 
                 <div class="items mt">
-                    <a href="http://союз-дома.рф" target="_blank" class="item">
-                        <span class="prompt">Строительная компания</span>
-                        <img src="@/assets/images/portfolio/souz.png" alt="" class="image">
+                    <a href="https://visualsenselab.ru/cases/alex-clinic" target="_blank" class="item">
+                        <span class="prompt">Медицинская клиника</span>
+                        <img src="@/assets/images/portfolio/alekhin.png" alt="" class="image">
+                    </a>
+                    <a href="https://visualsenselab.ru/cases/armada-marketplace" target="_blank" class="item">
+                        <span class="prompt">Интернет-магазин</span>
+                        <img src="@/assets/images/portfolio/armada.png" alt="" class="image">
                     </a>
                     <a href="https://visualsenselab.ru" target="_blank" class="item">
                         <span class="prompt">Корпоративный сайт</span>
@@ -130,24 +134,25 @@
                         <span class="prompt">Салон красоты</span>
                         <img src="@/assets/images/portfolio/hclub.png" alt="" class="image">
                     </a>
-                    <a href="https://visualsenselab.ru/cases/alex-clinic" target="_blank" class="item">
-                        <span class="prompt">Медицинская клиника</span>
-                        <img src="@/assets/images/portfolio/alekhin.png" alt="" class="image">
+
+                    <a href="http://союз-дома.рф" target="_blank" class="item">
+                        <span class="prompt">Строительная компания</span>
+                        <img src="@/assets/images/portfolio/souz.png" alt="" class="image">
                     </a>
                     <a href="https://visualsenselab.ru/cases/a-tour" target="_blank" class="item">
                         <span class="prompt">Турагенство</span>
                         <img src="@/assets/images/portfolio/atour.png" alt="" class="image">
                     </a>
-                    <a href="https://visualsenselab.ru/cases/armada-marketplace" target="_blank" class="item">
-                        <span class="prompt">Интернет-магазин</span>
-                        <img src="@/assets/images/portfolio/armada.png" alt="" class="image">
-                    </a>
+
                     <a href="https://visualsenselab.ru/cases/konar-career-portal" target="_blank" class="item">
                         <span class="prompt">Карьерный портал</span>
                         <img src="@/assets/images/portfolio/konar-vacancies.png" alt="" class="image">
                     </a>
 
-
+                    <a class="pet-project-link"
+                        href="https://drive.google.com/file/d/1RuD5GsDLL9GigZ22FrHckAPN2LKYqHMP/view?usp=drive_link"
+                        target="_blank">Посмотреть Pet проект
+                        (FullStack)</a>
                 </div>
             </div>
         </section>
@@ -558,6 +563,12 @@ const handleSubmit = async () => {
                 .image
                     width: 100%
                     object-fit: contain
+            .pet-project-link
+                width: 100%
+                text-align: center
+                margin-top: 20px
+                color: var(--main-color)
+                font-weight: 800
 
     .benefits-section
         .items
@@ -735,6 +746,7 @@ const handleSubmit = async () => {
                         font-size: 20px
                     .desc
                         font-size: 18px
+                
 
         .portfolio-section
             .h2
@@ -745,6 +757,9 @@ const handleSubmit = async () => {
                         font-size: 1rem
                         padding: 8px 12px
                         font-weight: 500
+                .pet-project-link
+                    font-size: 24px
+                    margin-top: 40px
 
         .benefits-section
             .h2
@@ -857,6 +872,10 @@ const handleSubmit = async () => {
                         font-weight: 500
                     &:hover
                         box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px
+                .pet-project-link
+                    font-size: 20px
+                    grid-column: 1/3
+                    margin-top: 40px
 
         .benefits-section
             .h2
