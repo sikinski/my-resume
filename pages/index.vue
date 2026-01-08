@@ -149,10 +149,12 @@
                         <img src="@/assets/images/portfolio/konar-vacancies.png" alt="" class="image">
                     </a>
 
-                    <a class="pet-project-link"
+                    <a class="portfolio-link"
                         href="https://drive.google.com/file/d/1RuD5GsDLL9GigZ22FrHckAPN2LKYqHMP/view?usp=drive_link"
                         target="_blank">Посмотреть Pet проект
                         (FullStack)</a>
+                    <a class="portfolio-link" href="https://t.me/ayonana" target="_blank">Посмотреть все проекты с
+                        описаниями работ</a>
                 </div>
             </div>
         </section>
@@ -205,6 +207,7 @@
             <div class="content">
                 <p class="overtitle">Заинтересованы?</p>
                 <h2 class="h2">Оставьте заявку</h2>
+                <a class="tg-link" href="https://t.me/ayonana" target="_blank">Или напишите в Telegram</a>
 
                 <form class="form mt" @submit.prevent="handleSubmit">
                     <div class="field">
@@ -563,12 +566,14 @@ const handleSubmit = async () => {
                 .image
                     width: 100%
                     object-fit: contain
-            .pet-project-link
+            .portfolio-link
                 width: 100%
                 text-align: center
                 margin-top: 20px
                 color: var(--main-color)
                 font-weight: 800
+                &:last-child  
+                    margin-top: 10px
 
     .benefits-section
         .items
@@ -607,6 +612,12 @@ const handleSubmit = async () => {
                     border-bottom: none
 
     .form-section
+        .tg-link
+            color: var(--main-color)
+            font-size: 14px
+            font-weight: 500
+            margin-top: 10px
+            display: flex
         .form
             display: flex
             flex-direction: column
@@ -757,7 +768,7 @@ const handleSubmit = async () => {
                         font-size: 1rem
                         padding: 8px 12px
                         font-weight: 500
-                .pet-project-link
+                .portfolio-link
                     font-size: 24px
                     margin-top: 40px
 
@@ -781,6 +792,9 @@ const handleSubmit = async () => {
 
         .form-section
             .h2
+                text-align: center
+            .tg-link
+                justify-content: center
                 text-align: center
             .form
                 max-width: 600px
@@ -872,7 +886,7 @@ const handleSubmit = async () => {
                         font-weight: 500
                     &:hover
                         box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px
-                .pet-project-link
+                .portfolio-link
                     font-size: 20px
                     grid-column: 1/3
                     margin-top: 40px
